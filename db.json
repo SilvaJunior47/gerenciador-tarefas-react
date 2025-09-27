@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "Aprender React e Vite",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "text": "Conectar o Front-end com a API",
+      "completed": false
+    },
+    {
+      "id": "8369",
+      "text": "apresentar trabalho ",
+      "completed": false
+    }
+  ]
+}
