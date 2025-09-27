@@ -19,7 +19,9 @@ import Grid from '@mui/material/Grid';
 import TaskList from '../components/TaskList';
 
 const API_URL = 'https://my-json-server.typicode.com/SilvaJunior47/gerenciador-tarefas-react/tasks';
-function Home( ) {
+const TASKS_PER_PAGE = 5;
+
+function Home() {
   const { data: tasks, loading, error, setData: setTasks } = useApi();
   const [newTaskText, setNewTaskText] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
