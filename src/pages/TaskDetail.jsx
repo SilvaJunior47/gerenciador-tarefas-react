@@ -10,9 +10,8 @@ import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-const API_URL = 'http://localhost:3001/tasks';
-
-function TaskDetail( ) {
+const API_URL = 'https://my-json-server.typicode.com/SilvaJunior47/gerenciador-tarefas-react/tasks';
+function TaskDetail() {
   const { taskId } = useParams();
   const [task, setTask] = useState(null);
   const [loading, setLoading] = useState(true);

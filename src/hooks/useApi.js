@@ -1,8 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/tasks';
-
+const API_URL = 'https://my-json-server.typicode.com/SilvaJunior47/gerenciador-tarefas-react/tasks';
 export function useApi( ) {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
