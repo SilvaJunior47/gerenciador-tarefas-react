@@ -13,7 +13,7 @@ Projeto desenvolvido como parte da avaliação do curso de [Nome do Curso/Discip
 ## 🔗 Links Importantes
 
 *   **Acesse a Aplicação Online (Vercel):** **[https://gerenciador-tarefas-react-eta.vercel.app/](https://gerenciador-tarefas-react-eta.vercel.app/ )**
-*   **Explore o Código (GitHub):** **[https://github.com/SilvaJunior47/gerenciador-tarefas-react/](https://github.com/SilvaJunior47/gerenciador-tarefas-react/ )**
+*   **Explore o Código Interativamente (CodeSandbox):** **[https://codesandbox.io/p/github/SilvaJunior47/gerenciador-tarefas-react/](https://codesandbox.io/p/github/SilvaJunior47/gerenciador-tarefas-react/ )**
 
 *(Nota: A persistência de dados das tarefas (adição/exclusão) na versão online é simulada e não é permanente, pois utiliza uma API mock read-only. A persistência de usuários, no entanto, é real e gerenciada pelo Firebase.)*
 
@@ -96,7 +96,7 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 4.  **Configure as variáveis de ambiente:**
     *   Crie um arquivo chamado `.env.local` na raiz do projeto.
-    *   Preencha-o com as suas chaves do Firebase, seguindo o modelo do arquivo `.env.example` (se houver ) ou o formato abaixo.
+    *   Preencha-o com as suas chaves do Firebase, seguindo o formato abaixo.
     ```
     VITE_API_KEY="SUA_CHAVE_AQUI"
     VITE_AUTH_DOMAIN="SEU_DOMINIO_AQUI"
@@ -106,7 +106,7 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
     VITE_APP_ID="..."
     ```
 
-5.  **Inicie a API local (para persistência de dados):**
+5.  **Inicie a API local (para persistência de dados ):**
     *Em um terminal separado:*
     ```bash
     npx json-server --watch db.json --port 3001
