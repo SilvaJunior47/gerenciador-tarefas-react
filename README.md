@@ -6,7 +6,7 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white )
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white )
 
-Projeto desenvolvido como parte da avaliação do curso de [Nome do Curso/Disciplina], com o objetivo de criar uma aplicação completa de gerenciamento de tarefas (CRUD), incluindo um sistema de autenticação de usuários, utilizando React para o front-end e Firebase para o backend de autenticação.
+Projeto desenvolvido como parte da avaliação do curso de Framework Web, com o objetivo de criar uma aplicação completa de gerenciamento de tarefas (CRUD), incluindo um sistema de autenticação de usuários, utilizando React para o front-end e Firebase para o backend de autenticação.
 
 ---
 
